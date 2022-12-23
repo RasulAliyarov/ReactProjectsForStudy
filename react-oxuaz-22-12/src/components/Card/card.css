@@ -1,0 +1,25 @@
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.card {
+    margin-top: 10px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px gray;
+}
+
+.card__top img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+.card__middle {
+    padding: 10px;
+}
